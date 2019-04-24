@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" version="1">
+  <g transform="translate(0 -276)">
+    <rect rx="2" ry="2" y="276" height="24" width="24" fill="#484848" />
+    <rect
+      width="22"
+      height="22"
+      x="1"
+      y="1"
+      transform="translate(0 276)"
+      ry="1"
+      rx="1"
+      fill="#2d2d2d"
+    />
+  </g>
+</svg>;

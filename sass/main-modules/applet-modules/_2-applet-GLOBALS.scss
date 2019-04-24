@@ -1,0 +1,35 @@
+/* ===================================================================
+   ! Applets
+   ===================================================================*/
+
+.applet-separator {
+    background-image: url("panel-assets/panel-separator.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14px;
+    padding: 0;
+
+    &-line {/*!*/}
+}
+
+.applet-label {
+    font-weight: bold;
+    color: $text-primary;
+}
+
+.applet-icon { icon-size: 16px; }
+
+
+.applet-box {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: bold;
+    color: $text-primary;
+}
+
+/* Different images used in top & bottom panels. */
+@each $v in panel-top, panel-bottom {
+    .#{$v} .applet-box:hover {
+        border-image: url("panel-assets/#{$v}-item-hover.svg") 4;
+    }
+}

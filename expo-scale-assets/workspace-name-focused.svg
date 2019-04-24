@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" version="1">
+  <g transform="translate(0 -276)">
+    <rect width="24" height="24" y="276" ry="2" rx="2" fill="#d64937" />
+    <path
+      d="M2 276c-1.108 0-2 .892-2 2v20c0 1.108.892 2 2 2h20c1.108 0 2-.892 2-2v-20c0-1.108-.892-2-2-2H2zm0 1h20c.554 0 1 .446 1 1v20c0 .554-.446 1-1 1H2c-.554 0-1-.446-1-1v-20c0-.554.446-1 1-1z"
+      fill="#fff"
+      opacity=".1"
+    />
+  </g>
+</svg>;
